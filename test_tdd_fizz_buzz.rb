@@ -19,4 +19,8 @@ class TestYourFunctions < Minitest::Test
         assert_equal("mined", fizzbuzz[2])
 
     end
+    def test_assert_that_fith_postion_is_mines
+        assert_equal("mines", fizzbuzz[4])
+
+    end
 end
