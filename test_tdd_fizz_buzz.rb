@@ -16,7 +16,7 @@ class TestYourFunctions < Minitest::Test
         assert_equal(1, fizzbuzz[].first)
     end
     def test_assert_that_third_postion_is_mined
-        assert_equal("mined", 2)
+        assert_equal("mined", fizzbuzz[2])
 
     end
 end
