@@ -20,7 +20,11 @@ class TestYourFunctions < Minitest::Test
 
     end
     def test_assert_that_fith_postion_is_mines
-        assert_equal("mines", fizzbuzz[4])
+        assert_equal("minds", fizzbuzz[4])
+
+    end
+    def test_assert_that_15th_postion_is_mined_mines
+        assert_equal("mined minds", fizzbuzz[14])
 
     end
 end
