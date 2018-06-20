@@ -9,3 +9,4 @@ class TestYourFunctions < Minitest::Test
     def test_assert_that_end_result_is_array
         assert_equal(Array, fizzbuzz().class)
 end
+end
